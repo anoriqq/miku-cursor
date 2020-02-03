@@ -1,0 +1,51 @@
+[Version]
+signature="$CHICAGO$"
+
+[DefaultInstall]
+CopyFiles = Scheme.Cur, Scheme.Txt
+AddReg    = Scheme.Reg
+
+[DestinationDirs]
+Scheme.Cur = 10,"%CUR_DIR%"
+Scheme.Txt = 10,"%CUR_DIR%"
+
+[Scheme.Reg]
+HKCU,"Control Panel\Cursors\Schemes","%SCHEME_NAME%",,"%10%\%CUR_DIR%\%pointer%,%10%\%CUR_DIR%\%help%,%10%\%CUR_DIR%\%work%,%10%\%CUR_DIR%\%busy%,%10%\%CUR_DIR%\%cross%,%10%\%CUR_DIR%\%Text%,%10%\%CUR_DIR%\%Hand%,%10%\%CUR_DIR%\%unavailiable%,%10%\%CUR_DIR%\%Vert%,%10%\%CUR_DIR%\%Horz%,%10%\%CUR_DIR%\%Dgn1%,%10%\%CUR_DIR%\%Dgn2%,%10%\%CUR_DIR%\%move%,%10%\%CUR_DIR%\%alternate%,%10%\%CUR_DIR%\%link%"
+
+; -- Common Information
+
+[Scheme.Cur]
+pointer.ani
+help.ani
+work.ani
+busy.ani
+text.ani
+unavailiable.ani
+vert.ani
+horz.ani
+dgn1.ani
+dgn2.ani
+move.cur
+link.ani
+cross.cur
+hand.ani
+alternate.cur
+
+[Strings]
+CUR_DIR       = "HatsuneMiku"
+SCHEME_NAME   = "HatsuneMiku"
+pointer       = "pointer.ani"
+help          = "help.ani"
+work          = "work.ani"
+busy          = "busy.ani"
+text          = "text.ani"
+unavailiable  = "unavailiable.ani"
+vert          = "vert.ani"
+horz          = "horz.ani"
+dgn1          = "dgn1.ani"
+dgn2          = "dgn2.ani"
+move          = "move.cur"
+link          = "link.ani"
+cross         = "cross.cur"
+hand          = "hand.ani"
+alternate     = "alternate.cur"
